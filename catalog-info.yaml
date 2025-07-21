@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-banking
+  title: python-banking
+  description: Create a Python project for banking
+  annotations:
+    github.com/project-slug: 
+    backstage.io/managed-by-location: file:./catalog-info.yaml
+    jira.com/project-key: SCRUM
+  tags:
+    - Python
+    - FastAPI
+    - SQLAlchemy for transactions
+    - Pydantic for validation
+    - Pandas for financial analysis
+    - NumPy for calculations
+    - Cryptography for PCI compliance
+    - Celery for async processing
+    - Redis for real-time data
+spec:
+  type: service
+  owner: team-b
+  lifecycle: experimental
+  system: microservices-platform
